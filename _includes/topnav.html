@@ -13,13 +13,13 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/documentation/" | prepend: site.baseurl }}">Docs</a></li>
-                <li {% if page.sectionid=='page_dowload' %} class="active" {% endif %}><a href="{{ "/download-less/" | prepend: site.baseurl }}">Download</a></li>
+                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/documentation/" | prepend: site.baseurl }}">文档</a></li>
+                <li {% if page.sectionid=='page_dowload' %} class="active" {% endif %}><a href="{{ "/download-less/" | prepend: site.baseurl }}">下载</a></li>
                 <li {% if page.sectionid=='page_3dscenes' %} class="active" {% endif %}><a href="{{ "/3dscenes/" | prepend: site.baseurl }}">3D Scenes</a></li>
                 <li {% if page.sectionid=='page_3dobjects' %} class="active" {% endif %}><a href="{{ "/3dobjects/" | prepend: site.baseurl }}">3D Objects</a></li>
                 <li {% if page.sectionid=='page_demo' %} class="active" {% endif %}><a href="{{ "/demo/" | prepend: site.baseurl }}">Demo</a></li>
                 <li {% if page.sectionid=='page_publications' %} class="active" {% endif %}><a href="{{ "/publications/" | prepend: site.baseurl }}">Publications</a></li>
-                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
+                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">博客</a></li>
                 <li><a target="_blank" href="http://forum.lessrt.org/">LESS Forum</a></li>
             </ul>
             <div class="navbar-right">
