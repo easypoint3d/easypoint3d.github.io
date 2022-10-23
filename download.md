@@ -1,5 +1,5 @@
 ---
-title: Download LESS
+title: EasyPoint下载
 layout: page
 permalink: /download/
 sectionid: page_dowload
