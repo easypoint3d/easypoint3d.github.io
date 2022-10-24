@@ -63,7 +63,7 @@ published: true
         </div>
         <div class="col-sm-4">
             <div style="text-align:center";width:100%; height:100%;margin-left: auto;margin-right: auto;">
-               <img src="http://lessrt.org/img/content/fpar.jpg"/>
+               <img src="img/ep2_2.png" height="300" width="300" />
             </div>
             <h4 class="text-center">森林样地</h4>
             <p>EasyPoint森林样地点云处理功能参数少且易于设置，实现单木分割、树干提取、参数提取（位置、树高、胸径、冠幅）等，整个过程全自动化，并以可视化和表格方式呈现结果。</p>
