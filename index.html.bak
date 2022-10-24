@@ -55,7 +55,7 @@ published: true
   <div class="row">
         <div class="col-sm-4">
             <div style="text-align:center";width:100%; height:100%;margin-left: auto;margin-right: auto;">
-               <img src="http://lessrt.org/img/content/screenshot300.png"/>
+               <img src="img/ep2_1.png"/>
             </div>
             <h4 class="text-center">地面滤波</h4>
             <p>地面滤波目的是区分地面和地物，其结果直接影响后续点云分割分类等处理的精度和效率，是点云处理中基础且关键的步骤。EasyPoint地面滤波参数极少、速度极快，精度较高。
