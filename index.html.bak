@@ -34,14 +34,14 @@ published: true
         </div>
         <div class="col-sm-4">
             <div style="text-align:center";width:100%; height:100%;margin-left: auto;margin-right: auto;">
-               <img src="http://lessrt.org/img/content/fpar.jpg"/>
+               <img src="img/ep1_1_4.png"/>
             </div>
             <h4 class="text-center">快速准确</h4>
             <p>EayPoint森林样地处理速度比其他软件更快，地面滤波更是比其他软件快一个数量级，且结果更优。</p>
         </div>
         <div class="col-sm-4">
             <div style="text-align:center";width:100%; height:100%;margin-left: auto;margin-right: auto;">
-               <img src="http://lessrt.org/img/content/spectralImg.jpg"/>
+               <img src="img/ep1_1_4.png"/>
             </div>
             <h4 class="text-center">扩展性强</h4>
             <p>EasyPoint可通过插件方式增加新功能，无需重新编译整个软件，也可通过Python接口进行功能扩展。</p>
