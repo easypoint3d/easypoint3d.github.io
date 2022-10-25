@@ -15,7 +15,7 @@ published: true
 
             <h2 class="header-light regular-pad">易点是什么</h2>
             <blockquote>
-              <p>易点是一款点云处理软件，顾名思义，易点的宗旨就是让点云使用容易点，非专业人士也能轻易上手，同时给专业人士更大的自由度和灵活性。
+              <p>易点是一款点云处理软件，顾名思义，易点的宗旨就是让点云使用容易点，非专业人员也能轻易上手，同时给专业人员更大的自由度和灵活性。
  </p>
             </blockquote>
             <img src="img/whatisEP.png" alt="" class="img-responsive">
@@ -82,7 +82,7 @@ published: true
 
   <h2 class="header-light regular-pad">易点的奥秘</h2>
               <blockquote>
-              <p>现有点云处理软件曲高和寡，专业人士操作可以得到较好的结果，非专业人士很难操作或者得不到理想的结果。
+              <p>现有点云处理软件曲高和寡，专业人员操作可以得到较好的结果，非专业人员很难操作或者得不到理想的结果。
  </p>
             </blockquote>  
   <div class="row">
@@ -91,7 +91,7 @@ published: true
                <img src="img/ep3_1.png" height="300" width="300" />
             </div>
             <h4 class="text-center">参数难以设置</h4>
-            <p>原因之一在于实现这些软件功能背后的算法需要较多参数，专业人士才能理解参数的意义，并且能够设置合适的参数值。
+            <p>原因之一在于实现这些软件功能背后的算法需要较多参数，专业人员才能理解参数的意义，并且能够设置合适的参数值。
             </p>
         </div>
         <div class="col-sm-4">
@@ -103,7 +103,7 @@ published: true
         </div>
         <div class="col-sm-4">
             <div style="text-align:center";width:100%; height:100%;margin-left: auto;margin-right: auto;">
-               <img src="http://lessrt.org/img/content/spectralImg.jpg"/>
+               <img src="img/ep3_3.png" height="300" width="300" />
             </div>
             <h4 class="text-center">易点解决之道</h4>
             <p>所以有些软件看起来处理结果非常好，但用户亲自使用却非常困难，结果也很差。EasyPoint的秘密正在于此，开发创新性算法，不仅参数少易于设置，而且参数的通用性和鲁棒性强；从用户的角度出发，将困难留给自己，让用户易于使用。</p>
