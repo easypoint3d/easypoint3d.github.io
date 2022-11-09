@@ -1,9 +1,10 @@
 
-- title: Docs
+- title: 软件文档
   docs:
-  - documentation
   - installation
+  - documentation
+  
 
-- title: Examples
+- title: 示例
   docs:
   - home
