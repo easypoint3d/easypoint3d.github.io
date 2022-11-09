@@ -4,7 +4,7 @@ permalink: /docs/documentation/
 redirect_from: /docs/index.html
 ---
 
-这个简易教程是用来帮助用户快速了解易点的特色与功能。在完成教程以后，你将掌握用易点对点云进行地面滤波和森林样地处理。如果有问题和意见建议，请联系easypoint3d@126.com。请在网站下载示例点云，开始探索易点吧。
+这个简易教程是用来帮助用户快速了解易点的特色与功能。在完成教程以后，你将掌握用易点对点云进行地面滤波和森林样地处理。如果有问题和意见建议，请联系easypoint3d@126.com。请在网站[下载示例点云](https://pan.baidu.com/s/1s2gyW1jlG1L9-qMAh8NtlQ?pwd=s54z)，开始探索易点吧。
 
 ## 1	教程概述
 以下是教程中包括的课程概述。
