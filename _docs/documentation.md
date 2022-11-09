@@ -24,7 +24,8 @@ redirect_from: /docs/index.html
 ![image](https://user-images.githubusercontent.com/116337653/200748391-9c581a23-3e88-4b37-b090-ee6318089d0c.png)
 
 点云如果没有颜色，可以通过字段渲染实现多种方式的点云赋色。以高程赋色为例，①在“数据管理器”中选择要赋色的点云；②在菜单中选择“快速渲染”；③在弹出对话框中选择高程Z作为渲染字段；④此时点云颜色与高程对应。如下图所示：
-![image](https://user-images.githubusercontent.com/116337653/200748657-87a08c88-b56d-4693-b7d6-f241b2fa8166.png)
+![高程赋色](https://user-images.githubusercontent.com/116337653/200753596-c2a2d1ca-693b-439e-afd5-ee2394d77e4f.jpg)
+
 
 > 提示：可以在显示窗口中对点云进行三维浏览，旋转是按住鼠标左键拖动，移动是按住鼠标右键拖动，缩放是用鼠标滚轮。
 
