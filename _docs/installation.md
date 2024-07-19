@@ -1,5 +1,5 @@
 ---
-title: 软件安装
+title: Installation
 permalink: /docs/installation/
 ---
 
