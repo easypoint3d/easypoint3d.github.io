@@ -3,7 +3,8 @@
   docs:
   - installation
   - documentation
-  - python_cmd
+  - python_sdk
+  - cmd_doc
   
 
 - title: 示例教程
