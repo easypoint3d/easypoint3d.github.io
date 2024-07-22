@@ -34,23 +34,27 @@ def init_ep_python():
 
 ## 2. 调用插件对点云进行处理，以CSF点云滤波插件为例，代理示例如下：
 ```
-
+# 初始化EasyPoint环境
 init_ep_python()
+# 导入EasyPoint模块，需要先执行init_ep_python()，再导入EPython模块
 import EPython as EP
 
+# 定义EasyPoint的安装路径和资源路径
 py_path = os.path.join(ep_install_dir, "Build")
 res_path = os.path.join(ep_install_dir, "Resource")
 # 使用插件前必须激活
 activated = EP.PluginManager.activate(os.path.join(py_path, r'license.lic'), os.path.join(py_path, r'EasyPoint_V1.0_PRIVATE.key'))
-print(activated)
 
-# 加载插件和获取过滤器
+# 加载插件
+# 首先加载IO插件，用于读写las文件
 BIFIO = EP.PluginManager.loadDLLPlugin(os.path.join(py_path, r'BIFIO_PLUGIN.dll'))
 lasFilter = EP.ExtensionFilter.getFilterFromExt('las').get()
 print(lasFilter.getDetail())
+# 加载GMFIO插件，用于读写obj文件
 objIO = EP.PluginManager.loadDLLPlugin(os.path.join(py_path, r'GMFIO_PLUGIN.dll'))
 objFilter = EP.ExtensionFilter.getFilterFromExt('obj').get()
 print(objFilter.getDetail())
+# 加载ACSF插件，用于布料滤波
 ACSF_plugin = EP.PluginManager.loadDLLPlugin(os.path.join(py_path, r'ACSF_PLUGIN.dll'))
 ACSF = EP.Cast.pluginAsStd(ACSF_plugin)
 print(ACSF.getDetail())
