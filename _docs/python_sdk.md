@@ -8,18 +8,28 @@ redirect_from: /docs/index.html
 ## 1.环境配置
 环境配置需要设置easypoint的python包的路径以及dll相关文件的路径，可以通过如下函数进行配置，其中需要替换`ep_install_dir`为EasyPoint的安装目录。在运行其他代码前需要先运行函数`init_ep_python()`
 ```
+import sys
+import os
+
+ep_install_dir = r"D:\Program Files\EasyPoint"
+
 def init_ep_python():
-    ep_install_dir = r"D:\Program Files\EasyPoint"
-    py_path = os.path.join(ep_install_dir, ep_install_dir)
+    py_path = os.path.join(ep_install_dir, "Build")
     sys.path.append(py_path)
-    third_party_bin_dir = os.path.join(ep_install_dir, "ThirdParty", "bin")
+    os.environ['PATH'] = py_path + os.pathsep + os.environ['PATH']
 
     # 必须添加QT_QPA_PLATFORM_PLUGIN_PATH环境变量
     qt_path = os.path.join(ep_install_dir, "ThirdParty", "bin", "Qt", "release", "platforms")
     os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = qt_path
+
     # 第三方库添加环境变量
+    third_party_bin_dir = os.path.join(ep_install_dir, "ThirdParty", "bin")
     for root, dirs, files in os.walk(third_party_bin_dir):
         for d in dirs:
-            os.environ['PATH'] = os.path.join(root, d, 'release') + os.pathsep + os.environ['PATH']
-            print(os.path.join(root, d, 'release') + os.pathsep + os.environ['PATH'])
+            release_dir = os.path.join(root, d, 'release')
+            if os.path.exists(release_dir):
+                os.add_dll_directory(release_dir)
+                os.environ['PATH'] = release_dir + os.pathsep + os.environ['PATH']
 ```
+
+
