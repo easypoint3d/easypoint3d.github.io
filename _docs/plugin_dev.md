@@ -1,5 +1,5 @@
 ---
-title: 插件开发教程
+title: 插件开发教程（Plugin Development Tutorial）
 permalink: /docs/plugin_dev/
 redirect_from: /docs/index.html
 ---
