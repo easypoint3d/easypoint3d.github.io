@@ -1,5 +1,5 @@
 ---
-title: 星载版教程
+title: 星载版教程（Satellite Tutorial）
 permalink: /docs/doc_spaceborne/
 redirect_from: /docs/index.html
 ---
