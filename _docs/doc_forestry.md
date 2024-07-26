@@ -1,5 +1,5 @@
 ---
-title: 简易教程
+title: 林业版教程
 permalink: /docs/documentation/
 redirect_from: /docs/index.html
 ---
