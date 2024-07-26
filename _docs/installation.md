@@ -1,6 +1,6 @@
 ---
 title: 软件安装
-permalink: /docs/installation/
+permalink: /docs/documentation/
 ---
 
 <br>
