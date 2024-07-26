@@ -1,6 +1,6 @@
 ---
 title: 林业版教程
-permalink: /docs/documentation/
+permalink: /docs/doc_forestry/
 redirect_from: /docs/index.html
 ---
 
