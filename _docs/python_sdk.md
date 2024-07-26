@@ -1,5 +1,5 @@
 ---
-title: Python SDK
+title: 脚本（Python）教程
 permalink: /docs/python_sdk/
 redirect_from: /docs/index.html
 ---
