@@ -6,5 +6,6 @@ sectionid: page_contact
 published: true
 ---
 
-##### 联系我们：easypoint3d@126.com
+##### 联系我们 (Contact us)：easypoint@126.com
 
+##### 软件论坛 (Software forum)：https://discourse.zzygeo.cn/
