@@ -1,5 +1,5 @@
 ---
-title: 林业版教程
+title: 林业版教程（Forestry Tutorial）
 permalink: /docs/doc_forestry/
 redirect_from: /docs/index.html
 ---
