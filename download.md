@@ -31,6 +31,6 @@ published: true
 
 #### 下载(Download):
 
-[易点林业版 1.0](https://pan.baidu.com/s/1VP4qoVp3d-C4f9RpqRFr3g?pwd=x9el) [(EasyPoint Forestry 1.0)](https://drive.google.com/file/d/1FNtM_bLH_kE3xoieh1sWGyFm6QtSwR9Y/view?usp=sharing) 注册后可免费使用<font color=Red>一个月</font>，原则上<font color=Red>不支持</font>反复注册 (After registration, you can use the software for free for <font color=Red>one month</font>. Repeated registrations are <font color=Red>not supported</font> in principle)
+[易点林业版 1.0](https://pan.baidu.com/s/1AWPLINi1QYzCsEKWdS2r2A?pwd=v6ql) [(EasyPoint Forestry 1.0)](https://drive.google.com/file/d/1X6aKiqhpSTctnSrWOeWKwWRRCpXiEX7V/view?usp=sharing) 注册后可免费使用<font color=Red>一个月</font>，原则上<font color=Red>不支持</font>反复注册 (After registration, you can use the software for free for <font color=Red>one month</font>. Repeated registrations are <font color=Red>not supported</font> in principle)
 
 [易点卫星版 1.0](https://pan.baidu.com/s/1cqHaLrX53zOLAzpnWskDJw?pwd=6bay) [(EasyPoint Satellite 1.0)](https://drive.google.com/file/d/1FNtM_bLH_kE3xoieh1sWGyFm6QtSwR9Y/view?usp=sharing) 注册后可免费使用<font color=Red>六个月</font>，<font color=Red>支持</font>反复注册 (After registration, you can use the software for free for <font color=Red>six month</font>. Repeated registrations are <font color=Red>supported</font>)
