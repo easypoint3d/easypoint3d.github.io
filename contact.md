@@ -8,4 +8,4 @@ published: true
 
 ##### 联系我们 (Contact us)：easypoint@126.com
 
-##### 软件论坛 (Software forum)：[https://discourse.zzygeo.cn/](https://discourse.zzygeo.cn/)
+##### 软件论坛 (Software forum)：[https://forum.easypoint.xyz/](https://forum.easypoint.xyz/)
