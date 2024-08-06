@@ -10,7 +10,7 @@ published: true
 - 软件申请许可后可<font color=Red>免费</font>使用一段时间 (The software can be used for <font color=Red>free</font> for a period of time after the license is granted)；
 - 提出意见、建议、反馈等，如被采纳，可以获得<font color=Red>一年</font>软件使用许可 (Submitting suggestions, recommendations, feedback, etc., if adopted, can earn a <font color=Red>one-year</font> software usage license)；
 - 开发插件或python、批处理等功能，如被采纳，可以获得<font color=Red>永久</font>软件使用许可 (Developing plugins or features in Python, batch processing, etc., if adopted, can earn a <font color=Red>permanent</font> software usage license)；
-- 欢迎在[软件论坛](https://discourse.zzygeo.cn/)与我们联系和交流 (You are welcome to contact and communicate with us on the [Software Forum](https://discourse.zzygeo.cn/))。
+- 欢迎在[软件论坛](https://forum.easypoint.xyz/)与我们联系和交流 (You are welcome to contact and communicate with us on the [Software Forum](https://forum.easypoint.xyz/))。
 
 #### 注册文件获取(Registration File Acquisition)：
 
