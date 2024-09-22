@@ -58,6 +58,8 @@ ICESat-2一轨数据往往覆盖数千公里范围，其中大部分数据可能
 
 若需要更准确的定位兴趣区域，按经纬度裁剪将会是更佳选择。①在“Data Manager”中选择点云（可同时选中多轨数据）；②在工具栏中选择“STC”按钮；③输入兴趣区域的最小和最大经纬度坐标，默认数值为选中的所有数据的包围盒；④点击“OK”按钮等待裁剪完成。
 
+(If more precise positioning of the area of interest is required, clipping by latitude and longitude will be a better choice. ①Select the point cloud in the “Data Manager” (multiple tracks of data can be selected at the same time); ②Click the “STC” button in the toolbar; ③Enter the minimum and maximum latitude and longitude coordinates of the area of interest. The default values are the bounding box of all selected data; ④Click the “OK” button and wait for the clipping to be completed.)
+
 ![image-20240922112221528](https://raw.githubusercontent.com/ApolloCBT/Image_upgit/master/2024/09/upgit_20240922_1726975342.png)
 
 ## 4	ALCSF光子分类 (ALCSF Classification)
