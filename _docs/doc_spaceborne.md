@@ -46,7 +46,7 @@ redirect_from: /docs/index.html
 
 ## 3	点云裁剪*（可选）*(Point Cloud Clipping *(Optional)*)
 
-#### 绘制兴趣区域裁剪
+#### 绘制兴趣区域裁剪 (Clip by the Drawn Area of Interest)
 
 ICESat-2一轨数据往往覆盖数千公里范围，其中大部分数据可能不在兴趣区域内，对数据进行裁剪将有助于减下后续计算量。①选中要进行裁剪的数据；②点击工具栏中的“Clip Visible File”按钮；③选择兴趣区域的绘制模式（比如 “Polygon” ）；④点击“✏️”按钮来启动绘制；⑤在点云视图上绘制要截取的区域；⑥点击“✂️”按钮来预览裁剪结果；⑦点击“✔”按钮完成裁剪。
 
@@ -54,7 +54,7 @@ ICESat-2一轨数据往往覆盖数千公里范围，其中大部分数据可能
 
 ![image-20240724225441531](https://raw.githubusercontent.com/ApolloCBT/Image_upgit/master/2024/07/upgit_20240724_1721832881.png)
 
-#### 按经纬度裁剪
+#### 按经纬度裁剪 (Clip by Latitude and Longitude)
 
 若需要更准确的定位兴趣区域，按经纬度裁剪将会是更佳选择。①在“Data Manager”中选择点云（可同时选中多轨数据）；②在工具栏中选择“STC”按钮；③输入兴趣区域的最小和最大经纬度坐标，默认数值为选中的所有数据的包围盒；④点击“OK”按钮等待裁剪完成。
 
