@@ -46,11 +46,19 @@ redirect_from: /docs/index.html
 
 ## 3	点云裁剪*（可选）*(Point Cloud Clipping *(Optional)*)
 
+#### 绘制兴趣区域裁剪
+
 ICESat-2一轨数据往往覆盖数千公里范围，其中大部分数据可能不在兴趣区域内，对数据进行裁剪将有助于减下后续计算量。①选中要进行裁剪的数据；②点击工具栏中的“Clip Visible File”按钮；③选择兴趣区域的绘制模式（比如 “Polygon” ）；④点击“✏️”按钮来启动绘制；⑤在点云视图上绘制要截取的区域；⑥点击“✂️”按钮来预览裁剪结果；⑦点击“✔”按钮完成裁剪。
 
 (A single ICESat-2 track often covers thousands of kilometers, and most of the data may not be within the area of interest. Clipping the data will help reduce the computational load for subsequent processing. ① Select the data to be clipped; ② Click the "Clip Visible File" button in the toolbar; ③ Choose the drawing mode for the area of interest (e.g., "Polygon"); ④ Click the "✏️" button to start drawing; ⑤ Draw the area to be clipped on the point cloud view; ⑥ Click the "✂️" button to preview the clipping results; ⑦ Click the "✔" button to complete the clipping. As shown in the figure below:)
 
 ![image-20240724225441531](https://raw.githubusercontent.com/ApolloCBT/Image_upgit/master/2024/07/upgit_20240724_1721832881.png)
+
+#### 按经纬度裁剪
+
+若需要更准确的定位兴趣区域，按经纬度裁剪将会是更佳选择。①在“Data Manager”中选择点云（可同时选中多轨数据）；②在工具栏中选择“STC”按钮；③输入兴趣区域的最小和最大经纬度坐标，默认数值为选中的所有数据的包围盒；④点击“OK”按钮等待裁剪完成。
+
+![image-20240922112221528](https://raw.githubusercontent.com/ApolloCBT/Image_upgit/master/2024/09/upgit_20240922_1726975342.png)
 
 ## 4	ALCSF光子分类 (ALCSF Classification)
 
