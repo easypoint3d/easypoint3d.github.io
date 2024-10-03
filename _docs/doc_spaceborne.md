@@ -56,11 +56,21 @@ ICESat-2一轨数据往往覆盖数千公里范围，其中大部分数据可能
 
 #### 按经纬度裁剪 (Clip by Latitude and Longitude)
 
-若需要更准确的定位兴趣区域，按经纬度裁剪将会是更佳选择。①在“Data Manager”中选择点云（可同时选中多轨数据）；②在工具栏中选择“STC”按钮；③输入兴趣区域的最小和最大经纬度坐标，默认数值为选中的所有数据的包围盒；④点击“OK”按钮等待裁剪完成。
+若需要更准确的定位兴趣区域，按经纬度裁剪将会是更佳选择。①在“Data Manager”中选择点云（可同时选中多轨数据）；②在工具栏中选择“STC”按钮；③选择“Specified coordinates”方式；④输入兴趣区域的最小和最大经纬度坐标，默认数值为选中的所有数据的包围盒；⑤点击“OK”按钮等待裁剪完成。
 
-(If more precise positioning of the area of interest is required, clipping by latitude and longitude will be a better choice. ①Select the point cloud in the “Data Manager” (multiple tracks of data can be selected at the same time); ②Click the “STC” button in the toolbar; ③Enter the minimum and maximum latitude and longitude coordinates of the area of interest. The default values are the bounding box of all selected data; ④Click the “OK” button and wait for the clipping to be completed.)
+(If more precise positioning of the area of interest is required, clipping by latitude and longitude will be a better choice. ①Select the point cloud in the “Data Manager” (multiple tracks of data can be selected at the same time); ②Click the “STC” button in the toolbar; ③Select the “Specified coordinates” method; ④Enter the minimum and maximum latitude and longitude coordinates of the area of interest. The default values are the bounding box of all selected data; ⑤Click the “OK” button and wait for the clipping to be completed.)
 
-![image-20240922112221528](https://raw.githubusercontent.com/ApolloCBT/Image_upgit/master/2024/09/upgit_20240922_1726975342.png)
+![image-20241003214251504](https://raw.githubusercontent.com/ApolloCBT/Image_upgit/master/2024/10/upgit_20241003_1727962971.png)
+
+#### 按研究区裁剪(Clip by AoI polygon file)
+
+若兴趣区域为不规则形状，还可直接加载研究区的矢量文件进行裁剪。①在“Data Manager”中选择点云（可同时选中多轨数据）；②在工具栏中选择“STC”按钮；③选择“Shape file”方式；④点击“Browse”按钮打开文件管理器；⑤选择兴趣区域的矢量文件，支持<font color='red'> **“kml”**</font>和<font color='red'>**“shp”** </font>两种格式；⑥点击“OK”按钮等待裁剪完成。
+
+(If the area of interest is irregular in shape, you can also directly load the shape file of the study area for clipping. ① In the “Data Manager,” select the point cloud data (multiple tracks can be selected simultaneously); ② Choose the “STC” button from the toolbar; ③ Select the “Shape file” method; ④ Click the “Browse” button to open the file explorer; ⑤ Choose the vector file of the area of interest, which supports <font color='red'>**“kml”** </font>and  <font color='red'>**“shp”** </font>formats; ⑥ Click the “OK” button and wait for the clipping process to be completed.)
+
+![image-20241003212601236](https://raw.githubusercontent.com/ApolloCBT/Image_upgit/master/2024/10/upgit_20241003_1727961961.png)
+
+> 提示：当前版本需保证矢量文件坐标系为WGS84坐标系，坐标转换功能请期待后续版本。(Note: The current version requires that the shape file coordinate system be set to the WGS84 coordinate system; please look forward to future versions for the coordinate transformation feature.)
 
 ## 4	ALCSF光子分类 (ALCSF Classification)
 
