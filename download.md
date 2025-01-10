@@ -10,7 +10,7 @@ published: true
 - 软件申请许可后可<font color=Red>免费</font>使用一段时间 (The software can be used for <font color=Red>free</font> for a period of time after the license is granted)；
 - 提出意见、建议、反馈等，如被采纳，可以获得<font color=Red>一年</font>软件使用许可 (Submitting suggestions, recommendations, feedback, etc., if adopted, can earn a <font color=Red>one-year</font> software usage license)；
 - 开发插件或python、批处理等功能，如被采纳，可以获得<font color=Red>永久</font>软件使用许可 (Developing plugins or features in Python, batch processing, etc., if adopted, can earn a <font color=Red>permanent</font> software usage license)；
-- 欢迎在[软件论坛](https://forum.easypoint.xyz/)与我们联系和交流 (You are welcome to contact and communicate with us on the [Software Forum](https://forum.easypoint.xyz/))。
+- 欢迎在[软件论坛](https://forum.easypoint.xyz/)与我们联系和交流，<font color=Red>技术等公开问题只在论坛相应版面回复，请勿发邮件提问</font> (You are welcome to contact and communicate with us on the [Software Forum](https://forum.easypoint.xyz/). <font color=Red>Technical and other public questions should only be replied to in the relevant section of the forum. Please do not send inquiries via email.</font>)。
 
 #### 注册文件获取(Registration File Acquisition)：
 
